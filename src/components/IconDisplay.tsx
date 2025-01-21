@@ -2,7 +2,7 @@ import React from "react";
 
 import { useAppContext } from "@/components/AppProvider";
 import Icon from "@/components/Icon";
-import { IconName } from "@/lib/types";
+import { IconName } from "@/lib/icon-map";
 import { cn } from "@/lib/utils";
 
 export default function IconDisplay() {

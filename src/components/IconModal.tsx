@@ -3,7 +3,7 @@ import React from "react";
 import { useAppContext } from "@/components/AppProvider";
 import Icon from "@/components/Icon";
 import { useCopyToClipboard } from "@/hooks/use-copy-to-clipboard";
-import { IconName } from "@/lib/types";
+import { IconName } from "@/lib/icon-map";
 import { getSimilarIcons } from "@/lib/utils";
 import HorizontalScrollWrapper from "./HorizontalScrollWrapper";
 

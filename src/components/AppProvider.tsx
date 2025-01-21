@@ -8,7 +8,7 @@ import React, {
   useState,
 } from "react";
 
-import { IconName, IconVariant, IconColor } from "@/lib/types";
+import { IconVariant, IconColor } from "@/lib/types";
 import {
   ALL_ICONS,
   DEFAULT_ICON_COLOR,
@@ -18,6 +18,7 @@ import {
 import { useMounted } from "@/hooks/use-mounted";
 import ServerLoadingPage from "@/components/ServerLoadingPage";
 import { getIconsByVariant } from "@/lib/utils";
+import { IconName } from "@/lib/icon-map";
 
 interface AppContextProviderProps {
   children: ReactNode;

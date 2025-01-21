@@ -1,5 +1,5 @@
-import { icons } from "@/lib/icon-map";
-import { IconName, IconVariant, IconColor } from "@/lib/types";
+import { icons, IconName } from "@/lib/icon-map";
+import { IconVariant, IconColor } from "@/lib/types";
 
 export const ALL_ICONS: IconName[] = Object.keys(icons);
 

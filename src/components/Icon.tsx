@@ -1,8 +1,7 @@
 import React from "react";
 
-import { icons } from "@/lib/icon-map";
+import { icons, IconName } from "@/lib/icon-map";
 import { cn } from "@/lib/utils";
-import { IconName } from "@/lib/types";
 
 const EmptyIcon: React.FC<React.SVGProps<SVGSVGElement>> = () => null;
 

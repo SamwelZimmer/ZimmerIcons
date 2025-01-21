@@ -1,8 +1,8 @@
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 
-import { icons } from "@/lib/icon-map";
-import { IconName, IconVariant } from "@/lib/types";
+import { icons, IconName } from "@/lib/icon-map";
+import { IconVariant } from "@/lib/types";
 import { ALL_ICONS, VARIANT_FILTERS } from "@/lib/constants";
 
 export function cn(...inputs: ClassValue[]) {

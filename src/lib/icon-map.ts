@@ -437,3 +437,5 @@ export const icons: IconMap = {
   x: X,
   zeppelin: Zeppelin,
 };
+
+export type IconName = keyof typeof icons;
