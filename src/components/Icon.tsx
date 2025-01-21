@@ -4,9 +4,9 @@ import { icons } from "@/lib/icon-map";
 import { cn } from "@/lib/utils";
 import { IconName } from "@/lib/types";
 
-const EmptyIcon: React.ElementType = () => null;
+const EmptyIcon: React.FC<React.SVGProps<SVGSVGElement>> = () => null;
 
-interface IconProps extends React.SVGProps<SVGSVGElement> {
+interface IconProps extends Omit<React.SVGProps<SVGSVGElement>, "name"> {
   name: IconName;
   size?: number;
   className?: string;

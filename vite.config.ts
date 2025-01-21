@@ -11,7 +11,7 @@ export default defineConfig({
   },
   build: {
     lib: {
-      entry: "src/index.ts", // The entry point of your library
+      entry: path.resolve(__dirname, "src/index.ts"),
       name: "ZimmerIcons", // A global name for UMD builds
       formats: ["es", "cjs"], // The modules you want to build
       fileName: (format) => `zimmer-icons.${format}.js`,

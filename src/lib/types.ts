@@ -1,6 +1,8 @@
 import { icons } from "@/lib/icon-map";
 
-export type IconMap = { [key: string]: React.ComponentType };
+export type IconMap = {
+  [key: string]: React.FC<React.SVGProps<SVGSVGElement>>;
+};
 
 export type IconName = keyof typeof icons;
 
