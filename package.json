@@ -1,6 +1,6 @@
 {
   "name": "zimmer-icons",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Icon components + demo site",
   "main": "dist/zimmer-icons.cjs.js",
   "module": "dist/zimmer-icons.es.js",
