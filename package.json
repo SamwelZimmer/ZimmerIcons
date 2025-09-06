@@ -1,30 +1,37 @@
 {
   "name": "zimmer-icons",
   "version": "1.0.0",
-  "description": "My reusable UI components",
+  "description": "Icon components + demo site",
   "main": "dist/zimmer-icons.cjs.js",
   "module": "dist/zimmer-icons.es.js",
   "types": "dist/index.d.ts",
-  "private": true,
+  "private": false,
   "type": "module",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/zimmer-icons.es.js",
       "require": "./dist/zimmer-icons.cjs.js"
     }
   },
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "build": "vite build --config vite.lib.config.ts && tsc --emitDeclarationOnly",
+    "build:site": "vite build --outDir site-dist",
+    "preview": "vite preview",
+    "preview:site": "vite preview --outDir site-dist"
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "peerDependencies": {
+    "react": "^18 || ^19",
+    "react-dom": "^18 || ^19"
   },
   "dependencies": {
     "clsx": "^2.1.1",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "tailwind-merge": "^2.6.0",
-    "typescript": "^5.7.3"
+    "tailwind-merge": "^2.6.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",

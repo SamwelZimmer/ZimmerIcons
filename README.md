@@ -1,9 +1,31 @@
-# React + Vite
+# Zimmer Icons
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Icon components packaged for reuse, plus a demo site.
 
-Currently, two official plugins are available:
+## Scripts
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# ZimmerIcons
+- `dev`: Run the demo site locally (Vite dev server)
+- `build`: Build the library for publishing (ESM + CJS + d.ts)
+- `build:site`: Build the static demo site
+- `preview` / `preview:site`: Preview the built demo site
+
+## Consuming the package
+
+Install in your app, then:
+
+```tsx
+import { Icon, type IconName } from "zimmer-icons";
+
+export function Example() {
+  const name: IconName = "rocket";
+  return <Icon name={name} size={24} className="text-blue-600" />;
+}
+```
+
+Peer dependencies: React 18/19.
+
+## Publishing
+
+1. Ensure `package.json` has `private: false`.
+2. Run `npm run build`.
+3. Publish with `npm publish` (or your registry of choice).
