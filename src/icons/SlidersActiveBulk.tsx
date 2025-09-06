@@ -1,6 +1,6 @@
 import React from "react";
 
-const SlidersActiveDuo = (props: React.SVGProps<SVGSVGElement>) => (
+const SlidersActiveBulk = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     className={props.className}
     xmlns="http://www.w3.org/2000/svg"
@@ -44,4 +44,4 @@ const SlidersActiveDuo = (props: React.SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default SlidersActiveDuo;
+export default SlidersActiveBulk;

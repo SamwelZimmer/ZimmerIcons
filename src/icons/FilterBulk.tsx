@@ -1,4 +1,6 @@
-const FilterDuo = (props: React.SVGProps<SVGSVGElement>) => (
+import React from "react";
+
+const FilterBulk = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     className={props.className}
     xmlns="http://www.w3.org/2000/svg"
@@ -24,4 +26,4 @@ const FilterDuo = (props: React.SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default FilterDuo;
+export default FilterBulk;

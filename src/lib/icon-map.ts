@@ -35,7 +35,7 @@ import Blender from "../icons/Blender";
 import Bold from "../icons/Bold";
 import Bone from "../icons/Bone";
 import Bookmark from "../icons/Bookmark";
-import BookmarkDuo from "../icons/BookmarkDuo";
+import BookmarkBulk from "../icons/BookmarkBulk";
 import Boat from "../icons/Boat";
 import BodyArmour from "../icons/BodyArmour";
 import BowAndArrow from "../icons/BowAndArrow";
@@ -110,7 +110,7 @@ import FaceFlushed from "../icons/FaceFlushed";
 import Factory from "../icons/Factory";
 import Feather from "../icons/Feather";
 import Filter from "../icons/Filter";
-import FilterDuo from "../icons/FilterDuo";
+import FilterBulk from "../icons/FilterBulk";
 import Fish from "../icons/Fish";
 import FlipPhone from "../icons/FlipPhone";
 import FloppyDisk from "../icons/FloppyDisk";
@@ -155,7 +155,7 @@ import Library from "../icons/Library";
 import LibraryBulk from "../icons/LibraryBulk";
 import LibraryTwo from "../icons/LibraryTwo";
 import Lightbulb from "../icons/Lightbulb";
-import LightbulbDuo from "../icons/LightbulbDuo";
+import LightbulbBulk from "../icons/LightbulbBulk";
 import Lighthouse from "../icons/Lighthouse";
 import LineHorizontal from "../icons/LineHorizontal";
 import LineSolid from "../icons/LineSolid";
@@ -217,7 +217,7 @@ import SidebarLeft from "../icons/SidebarLeft";
 import ShoppingCart from "../icons/ShoppingCart";
 import Sliders from "../icons/Sliders";
 import SlidersActive from "../icons/SlidersActive";
-import SlidersActiveDuo from "../icons/SlidersActiveDuo";
+import SlidersActiveBulk from "../icons/SlidersActiveBulk";
 import SlidersVerticalBox from "../icons/SlidersVerticalBox";
 import Sorting from "../icons/Sorting";
 import SortingDown from "../icons/SortingDown";
@@ -229,7 +229,7 @@ import SpartanHelmet from "../icons/SpartanHelmet";
 import Spinner from "../icons/Spinner";
 import Spinner2 from "../icons/Spinner2";
 import Star from "../icons/Star";
-import StarDuo from "../icons/StarDuo";
+import StarBulk from "../icons/StarBulk";
 import StarHalf from "../icons/StarHalf";
 import Steak from "../icons/Steak";
 import StickyNote from "../icons/StickyNote";
@@ -306,7 +306,7 @@ export const icons: IconMap = {
   bold: Bold,
   bone: Bone,
   bookmark: Bookmark,
-  "bookmark-duo": BookmarkDuo,
+  "bookmark-bulk": BookmarkBulk,
   boat: Boat,
   "body-armour": BodyArmour,
   "bow-and-arrow": BowAndArrow,
@@ -381,7 +381,7 @@ export const icons: IconMap = {
   factory: Factory,
   feather: Feather,
   filter: Filter,
-  "filter-duo": FilterDuo,
+  "filter-bulk": FilterBulk,
   fish: Fish,
   "flip-phone": FlipPhone,
   "floppy-disk": FloppyDisk,
@@ -426,7 +426,7 @@ export const icons: IconMap = {
   "library-bulk": LibraryBulk,
   "library-two": LibraryTwo,
   lightbulb: Lightbulb,
-  "lightbulb-duo": LightbulbDuo,
+  "lightbulb-bulk": LightbulbBulk,
   lighthouse: Lighthouse,
   "line-horizontal": LineHorizontal,
   "line-solid": LineSolid,
@@ -488,7 +488,7 @@ export const icons: IconMap = {
   "shopping-cart": ShoppingCart,
   sliders: Sliders,
   "sliders-active": SlidersActive,
-  "sliders-active-duo": SlidersActiveDuo,
+  "sliders-active-bulk": SlidersActiveBulk,
   "sliders-vertical-box": SlidersVerticalBox,
   sorting: Sorting,
   "sorting-down": SortingDown,
@@ -500,7 +500,7 @@ export const icons: IconMap = {
   spinner: Spinner,
   "spinner-2": Spinner2,
   star: Star,
-  "star-duo": StarDuo,
+  "star-bulk": StarBulk,
   "star-half": StarHalf,
   steak: Steak,
   "sticky-note": StickyNote,

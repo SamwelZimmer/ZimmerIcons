@@ -1,6 +1,6 @@
 import React from "react";
 
-const BookmarkDuo = (props: React.SVGProps<SVGSVGElement>) => (
+const BookmarkBulk = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     className={props.className}
     xmlns="http://www.w3.org/2000/svg"
@@ -26,4 +26,4 @@ const BookmarkDuo = (props: React.SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default BookmarkDuo;
+export default BookmarkBulk;
