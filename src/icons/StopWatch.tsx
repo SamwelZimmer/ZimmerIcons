@@ -1,6 +1,6 @@
 import React from "react";
 
-const Spinner = (props: React.SVGProps<SVGSVGElement>) => (
+const StopWatch = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     className={props.className}
     xmlns="http://www.w3.org/2000/svg"
@@ -11,56 +11,43 @@ const Spinner = (props: React.SVGProps<SVGSVGElement>) => (
     fill={"none"}
     {...props}
   >
-    {" "}
     <path
-      d="M12 3V6"
+      d="M18 5.5L19 4.5M5 4.5L6 5.5"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <circle
+      cx="12"
+      cy="13"
+      r="9"
       stroke="currentColor"
       strokeWidth="1.5"
       strokeLinecap="round"
     />
     <path
-      d="M12 18V21"
+      d="M12 9.5V13.5L14 15.5"
       stroke="currentColor"
       strokeWidth="1.5"
       strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
-      d="M21 12L18 12"
+      d="M12 3.5V2"
       stroke="currentColor"
       strokeWidth="1.5"
       strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
-      d="M6 12L3 12"
+      d="M10 2H14"
       stroke="currentColor"
       strokeWidth="1.5"
       strokeLinecap="round"
-    />
-    <path
-      d="M18.3635 5.63672L16.2422 7.75804"
-      stroke="currentColor"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-    />
-    <path
-      d="M7.75804 16.2422L5.63672 18.3635"
-      stroke="currentColor"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-    />
-    <path
-      d="M18.3635 18.3635L16.2422 16.2422"
-      stroke="currentColor"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-    />
-    <path
-      d="M7.75804 7.75804L5.63672 5.63672"
-      stroke="currentColor"
-      strokeWidth="1.5"
-      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 );
 
-export default Spinner;
+export default StopWatch;

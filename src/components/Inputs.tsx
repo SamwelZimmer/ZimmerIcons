@@ -2,9 +2,9 @@
 
 import React, { useRef, useState } from "react";
 
-import { IconName } from "@/lib/icon-map";
-import { cn } from "@/lib/utils";
-import Icon from "@/components/Icon";
+import { IconName } from "../lib/icon-map";
+import { cn } from "../lib/utils";
+import Icon from "../components/Icon";
 
 interface CustomInputProps {
   value: string;
