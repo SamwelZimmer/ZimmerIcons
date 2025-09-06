@@ -1,10 +1,8 @@
 import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
 import * as path from "path";
 
 // Library build config (consumers install this package)
 export default defineConfig({
-  plugins: [react()],
   resolve: {
     alias: {
       "@": path.resolve("./src"),
@@ -18,7 +16,7 @@ export default defineConfig({
       fileName: (format) => `zimmer-icons.${format}.js`,
     },
     rollupOptions: {
-      external: ["react", "react-dom"],
+      external: ["react", "react-dom", "react/jsx-runtime"],
       output: {
         globals: {
           react: "React",
@@ -26,6 +24,12 @@ export default defineConfig({
         },
       },
     },
+    // Use esbuild to transpile TSX with the automatic runtime
+    // and keep React fully external at runtime.
+    target: "es2019",
+  },
+  esbuild: {
+    jsx: "automatic",
+    jsxImportSource: "react",
   },
 });
-
